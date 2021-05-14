@@ -1,29 +1,29 @@
 # Installing one package
 
-The ecosystem of open-source 3rd-party libraries are a major
+The ecosystem of open-source 3rd-party libraries is a major
 component of why Python has become one of the most commonly-used
 programming languages.
 
 ## `pip`
 
 In the early days of Python, the only way to install a package published by a
-3rd-party was by running the command below. We'll use `pandas` for this example:
+3rd-party was by running a command with `pip`. We'll use `pandas` for this example:
 
 ```bash
 pip install pandas
 ```
 
 This command searches the [Python Package Index (aka "PyPI")](https://pypi.org) for a package named `pandas`. If it finds a match, it will install it into whatever
-environment the command was executed from, so make sure that the appropriate environment has been activated before executing this command.
+environment the command was executed from, so make sure that the appropriate environment has been activated before executing this command!
 
 `pip` is still widely used, but comes with some major limitations for Windows
-users hoping to install open-source GIS packages (like `geopandas`)
+users installing open-source GIS packages (like `geopandas`)
 
 ## `conda`
 
-Most (but not all) packages are also published on [conda-forge](https://conda-forge.org). The major difference between the two is that `conda` is installing binaries while `pip` is installing and building from source code. Another benefit is that packages are audited for safety/security before being included on conda-forge. One downside to this safety feature is that sometimes a library's package on `conda` might be a version behind what's available on `pip`. As long as you don't need a bleeding-edge library, this is a net benefit.
+Most (but not all) packages are also published on [conda-forge](https://conda-forge.org). The major difference between the two is that `conda` installs binaries while `pip` installs by building from source code. Another benefit of conda-forge is that packages are audited for safety/security before being included in the registry. One downside to this safety feature is that sometimes a library's package on `conda` might be a version behind what's available on `pip`. As long as you don't need a bleeding-edge library, this is a net benefit.
 
-To install `pandas` from the channel `conda-forge`, run:
+To install `pandas` with `conda` from the channel `conda-forge`, run:
 
 ```bash
 conda install -c conda-forge pandas
@@ -37,8 +37,8 @@ depends on whether you're using `pip` or `conda`.
 
 ## `environment.yml` with `conda`
 
-You can define a full `conda` environment using a `yml` file that by convention
-is often named `environment.yml`. This file contains the following components:
+You can define a full `conda` environment using a `.yml` file that by convention
+is usually named `environment.yml`. This file contains the following components:
 
 - `name` of the environment
 - `channels` to pull libraries from

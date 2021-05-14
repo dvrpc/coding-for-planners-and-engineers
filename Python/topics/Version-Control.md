@@ -11,5 +11,5 @@ When it comes to working with `git`, there's a few choices:
 - Use a standalone graphical-user-interface (GUI)
 - Use a GUI that's integrated into your IDE
 
-As long as your properly using the features of `git`, no approach is inherently better. The GUI options provide an easier method of previewing changes you've made
+As long as you're properly using the features of `git`, no approach is inherently better. The GUI options provide an easier method of previewing changes you've made
 to a file, while the CLI option may be more efficient for power users.

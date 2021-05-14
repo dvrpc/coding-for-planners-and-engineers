@@ -47,7 +47,7 @@ PyCharm is published by JetBrains and comes in "community" and "pro" versions (f
 and paid, respectively). Unlike many "free" versions of paid software, PyCharm's
 Community software has pretty much everything you'd need.
 
-Unlike VSCode, which can be used for all languages, PyCharm is geared specifically
+Unlike VSCode (which can be used for all languages), PyCharm is geared specifically
 towards writing code in Python. As a result, many of the features you'd need a plugin
 for in VSCode are bundled into PyCharm by default. The cost of this is that the
 software is more "bloated" with features you might not need, and as a result
