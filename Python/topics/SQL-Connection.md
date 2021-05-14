@@ -2,7 +2,7 @@
 
 Once the size of your datasets grows beyond a certain point you'll need to start
 using a database of one sort or another. If you're using spatial data and want to
-use an open-source database, `PostgreSQL` with the `PostGIS` extension is the ideal choice. This topic is explored in greater detail within the [SQL](../SQL/README.md) section of this repo.
+use an open-source database, `PostgreSQL` with the `PostGIS` extension is the ideal choice. This topic is explored in greater detail within the [SQL](../../SQL/README.md) section of this repo.
 
 ## Libraries that connect SQL & Python
 
