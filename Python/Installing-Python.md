@@ -23,3 +23,10 @@ other options listed below will need to install a [C++ compiler](https://visuals
 There's fewer constraints when installing Python on \*nix machines since they typically
 include the necessary compilers by default. You can still use `miniconda3` on these machines,
 but you can also install through other methods, including the [Python.org](https://www.python.org/downloads/) installer.
+
+## WSL
+
+Another option on Windows computers is to install Windows Subsystem for Linux (WSL),
+which provides a terminal-based interface to Ubuntu(/Linux). This is a great option
+for advanced users but is not recommended for new coders who are learning Python for
+the first time.
