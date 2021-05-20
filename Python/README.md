@@ -1,12 +1,19 @@
 # Python
 
-## Authoring a custom script:
+Python is a multipurpose programming language that has become indispensible for GIS data science work.
+
+A variety of topics are covered here to help get you started:
+
+## Setup
 
 - [Install Python on your machine](./topics/Installing-Python.md)
 - [Create a virtual environment](./topics/Environment-Creation.md)
 - [Install packages into your virtual environment](./topics/Installing-Packages.md)
 - [Select an "Integrated Development Environment" (IDE)](./topics/Which-IDE.md)
 - [Set up your IDE](./topics/Setup-IDE.md)
+
+## Authoring a custom script:
+
 - ... write some code! ...
 - [Commit your changes with `git` and push to GitHub](./topics/Version-Control.md)
 
