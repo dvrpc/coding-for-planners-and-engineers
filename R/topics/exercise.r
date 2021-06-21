@@ -42,7 +42,7 @@ tracts <- get_acs(geography = " ",
 c34005<- get_decennial(geography = , year = , state = ,
                        county = "005", variables = , output = , geometry = TRUE)
 c34007<- get_decennial(geography = , year = , state = ,
-                       county = "005", variables = , output = , geometry = TRUE)
+                       county = "007", variables = , output = , geometry = TRUE)
 
 c34015<- get_decennial
 c34021<- get_decennial
