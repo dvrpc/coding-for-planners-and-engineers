@@ -19,11 +19,17 @@ dec_year <-
 dvrpc_states <- c("PA", "NJ")
 dvrpc_counties <-c(34005, 34007, 34015, 34021, 42017, 42029, 42045, 42091, 42101)
 
+#looking for variables
+?load_variables
+acs_vari_check <- load_variables(2019, "acs5", cache = TRUE)
+view(acs_vari_check)
+
 #census varibles
 dec_vari <- c("P013001")
 acs_vari <- 
 
 #grabbing tract level data
+?get_acs
 tracts <- get_acs(geography = " ",
                   variables = , 
                   survey = "", 
@@ -32,11 +38,11 @@ tracts <- get_acs(geography = " ",
                   geometry = TRUE)
 
 #grabbing block level data
+?get_decennial
 c34005<- get_decennial(geography = , year = , state = ,
                        county = "005", variables = , output = , geometry = TRUE)
-
-
-c34007<- get_decennial
+c34007<- get_decennial(geography = , year = , state = ,
+                       county = "005", variables = , output = , geometry = TRUE)
 
 c34015<- get_decennial
 c34021<- get_decennial
@@ -47,21 +53,27 @@ c42091 <-get_decennial
 c42101 <-get_decennial
 
 #binding the blocks together
+?rbind
 finalBlocks <- rbind()
-finalBlocks$GEOID <- as.numeric()
+finalBlocks$GEOID <- as.numeric(finalBlocks$GEOID)
 
 #filtering the tracts
+?filter
+?substr
 finalTracts <- filter(tracts, as.numeric(substr(tracts$GEOID, start = 1, stop = 5)) %in% )
 finalTracts$GEOID <- 
 
 
 #exporting your files
+?st_write
+?write.csv
 st_write(finalBlocks, "blockGrabberOut.shp", delete_layer = TRUE)
 write.csv(finalBlocks, here("blockGrabberOut.csv"))
 st_write(, "", delete_layer = )
 #make sure to write a CSV as well!
 
 #visuaizing your data
+?ggplot
 ggplot(data = ) +
   geom_sf(aes(fill = )) +
   scale_fill_viridis_c(option = "plasma", trans = "sqrt")
