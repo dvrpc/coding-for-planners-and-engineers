@@ -1,0 +1,10 @@
+psycopg2-binary
+geopandas
+geoalchemy2
+mkdocs-material
+mkdocstrings
+markdown-include
+mkdocs-jupyter
+jupyterlab
+python-dotenv
+matplotlib
