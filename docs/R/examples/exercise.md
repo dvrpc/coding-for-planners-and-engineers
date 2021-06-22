@@ -154,7 +154,7 @@ finalTracts <-
   filter(tracts, as.numeric(substr(
     tracts$GEOID, start = 1, stop = 5
   )) %in% )
-finalTracts$GEOID <-
+finalTracts$GEOID <- as.numeric(finalTracts$GEOID)
 ```
 
 # exporting your files
