@@ -8,4 +8,5 @@ This event will be geared for both those with and without coding experience. The
 
 - [Getting set up with R](./topics/setup.md)
 - [Using `tidycensus`](./topics/tidycensus.md)
-- [Start Using `R`](https://github.com/dvrpc/coding-for-planners-and-engineers/blob/a6e7da5a602fa3452e0f7977c104c8664cbee06a/docs/R/examples/exercise.md)
+- [Guide to the R exercise `R`](https://github.com/dvrpc/coding-for-planners-and-engineers/blob/main/docs/R/examples/exercise.md)
+- [File to download and open to get started](https://github.com/dvrpc/coding-for-planners-and-engineers/blob/main/docs/R/topics/exercise.r)
