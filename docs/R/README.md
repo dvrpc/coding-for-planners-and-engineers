@@ -8,3 +8,4 @@ This event will be geared for both those with and without coding experience. The
 
 - [Getting set up with R](./topics/setup.md)
 - [Using `tidycensus`](./topics/tidycensus.md)
+- [Start Using `R`](R/examples/exercise.md.)
