@@ -9,9 +9,8 @@ RStudio can be [downloaded from the RStudio website](https://www.rstudio.com/pro
 Copy/paste this code block into an empty file in RStudio. Highlight the lines and press `CTRL + Enter`. This is a one-time installation.
 
 ```R
-packages_to_install <- c("plyr", "here", "sf", "summarytools", "survey",
-                         "srvyr", "sjmisc", "tidycensus", "tidyverse",
-                         "tigris", "dplyr", "descr", "sp", "rgdal", "raster")
+packages_to_install <- c("plyr", "here", "sf","summarytools", "survey", "srvyr", "sjmisc", "maptools", "ggplot", 
+"tidycensus", "tidyverse", "tigris", "dplyr", "descr", "sp", "rgdal", "raster")
 install.packages(packages_to_install)
 ```
 
