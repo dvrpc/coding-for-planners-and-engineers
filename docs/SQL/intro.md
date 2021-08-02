@@ -12,6 +12,8 @@ If you want other DVRPC staff to connect to you local PostgreSQL cluster, you wi
 ```
 host            all             all             0.0.0.0/0            md5
 ```
+After the changes are made, you need to restart the PostgreSQL service for the change to persist.
+
 *This may require IT assistance
 
 ## IDE options
