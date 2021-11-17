@@ -24,7 +24,7 @@ library(plyr);
 library(sf);
 ```
 
-## Configure the working directory
+## Configure the working directory (where stuff is saved to)
 
 The following command will show your working directory:
 
